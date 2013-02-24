@@ -17,5 +17,10 @@ class Race {
         distance(min:0.0)
         cost(min:0.0, max:100.0)
         maxRunners(min:0, max:100000)
+		startDate(validator: {return (it > new Date())})
     }
+
+    BigDecimal inMiles(){
+        return distance * 0.6214
+	}
 }
