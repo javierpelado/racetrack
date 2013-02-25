@@ -20,7 +20,13 @@ class Race {
 		startDate(validator: {return (it > new Date())})
     }
 
+    static hasMany = [registrations:Registration]
+
     BigDecimal inMiles(){
         return distance * 0.6214
 	}
+
+    String toString(){
+        return "${name}, ${startDate.format('dd/MM/yyyy')}"
+    }
 }

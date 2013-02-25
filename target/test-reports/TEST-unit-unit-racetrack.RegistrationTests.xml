@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="MacBook-de-Javier.local" name="racetrack.RegistrationTests" tests="1" time="0.149" timestamp="2013-02-24T20:55:52">
+<testsuite errors="0" failures="0" hostname="MacBook-de-Javier.local" name="racetrack.RegistrationTests" tests="1" time="0.312" timestamp="2013-02-25T09:40:01">
   <properties />
-  <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.146">
-    <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at racetrack.RegistrationTests.testSomething(RegistrationTests.groovy:15)
-</failure>
-  </testcase>
+  <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.31" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

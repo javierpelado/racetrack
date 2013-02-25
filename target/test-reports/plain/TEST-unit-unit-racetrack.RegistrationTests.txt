@@ -1,5 +1,5 @@
 Testsuite: racetrack.RegistrationTests
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0,149 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,312 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,9 +7,4 @@ Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0,149 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0,146 sec
-	FAILED
-junit.framework.AssertionFailedError: Implement me
-junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at racetrack.RegistrationTests.testSomething(RegistrationTests.groovy:15)
-
+Testcase: testSomething took 0,31 sec

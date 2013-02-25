@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites>
-  <testsuite errors="0" failures="0" hostname="MacBook-de-Javier.local" id="0" name="RaceTests" package="racetrack" tests="1" time="0.367" timestamp="2013-02-25T09:40:13">
-      <properties />
-
-      <testcase classname="racetrack.RaceTests" name="testRaceDatesBeforeToday" time="0.365" />
-
-      <system-out><![CDATA[--Output from testRaceDatesBeforeToday--
+<testsuite errors="0" failures="0" hostname="MacBook-de-Javier.local" name="racetrack.RaceTests" tests="1" time="0.367" timestamp="2013-02-25T09:40:13">
+  <properties />
+  <testcase classname="racetrack.RaceTests" name="testRaceDatesBeforeToday" time="0.365" />
+  <system-out><![CDATA[--Output from testRaceDatesBeforeToday--
 
 Errors:
 grails.validation.ValidationErrors: 6 errors
@@ -22,57 +19,6 @@ Field error in object 'racetrack.Race' on field 'startDate': rejected value [Mon
 Code:
 race.startDate.validator.invalid
 ]]></system-out>
-
-      <system-err><![CDATA[--Output from testRaceDatesBeforeToday--
+  <system-err><![CDATA[--Output from testRaceDatesBeforeToday--
 ]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-de-Javier.local" id="1" name="RaceControllerTests" package="racetrack" tests="1" time="2.757" timestamp="2013-02-25T09:39:56">
-      <properties />
-
-      <testcase classname="racetrack.RaceControllerTests" name="testSomething" time="2.402" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-de-Javier.local" id="2" name="RaceTests" package="racetrack" tests="1" time="1.699" timestamp="2013-02-25T09:39:59">
-      <properties />
-
-      <testcase classname="racetrack.RaceTests" name="testInMiles" time="0.529" />
-
-      <system-out><![CDATA[--Output from testInMiles--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testInMiles--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-de-Javier.local" id="3" name="RegistrationControllerTests" package="racetrack" tests="1" time="0.668" timestamp="2013-02-25T09:40:00">
-      <properties />
-
-      <testcase classname="racetrack.RegistrationControllerTests" name="testSomething" time="0.478" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-de-Javier.local" id="4" name="RegistrationTests" package="racetrack" tests="1" time="0.312" timestamp="2013-02-25T09:40:01">
-      <properties />
-
-      <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.31" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-</testsuites>
+</testsuite>
