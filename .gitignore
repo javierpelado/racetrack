@@ -12,6 +12,7 @@
 doc/
 *.swp
 *~
+*.class
 .project
 .DS_Store
 .idea
