@@ -99,4 +99,20 @@ class UserController {
             redirect(action: "show", id: id)
         }
     }
+
+    def login = {}
+    def logout = {}
+    def authenticate = {
+        def user = User.findByLoginAndPassword(params.login, params.password)
+        if(user){
+          session.user = user
+          flash.message = "Bienvenido ${user.login}!"
+          redirect(controller:"race", action:"list")
+        }
+        else{
+          flash.message =
+             "Lo siento, ${params.login}. Inténtalo otra vez."
+          redirect(action:"login")
+        } 
+    }
 }

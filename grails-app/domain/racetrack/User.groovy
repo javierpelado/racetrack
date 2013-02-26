@@ -11,6 +11,10 @@ class User {
     	role(inList:["admin", "user"])
     }
 
+    boolean isAdmin(){
+        return role == "admin"
+    }
+    
     String toString() {
     	login
     }
