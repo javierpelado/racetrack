@@ -1,0 +1,18 @@
+Testsuite: racetrack.UserControllerTests
+Tests run: 2, Failures: 0, Errors: 1, Time elapsed: 5,32 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testShow--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testShow--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 3,909 sec
+Testcase: testShow took 1,327 sec
+	Caused an ERROR
+Cannot get property 'userInstance' on null object
+java.lang.NullPointerException: Cannot get property 'userInstance' on null object
+	at racetrack.UserControllerTests.testShow(UserControllerTests.groovy:33)
+

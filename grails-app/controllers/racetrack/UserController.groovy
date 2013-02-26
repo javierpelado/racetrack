@@ -101,9 +101,14 @@ class UserController {
     }
 
     def login = {}
-    def logout = {}
+    def logout = {
+        flash.message = "Hasta pronto ${session.user.login}"
+        session.user = null
+        redirect(action:"login")
+    }
+
     def authenticate = {
-        def user = User.findByLoginAndPassword(params.login, params.password)
+        def user = User.findByLoginAndPassword(params.login, params.password.encodeAsSHA())
         if(user){
           session.user = user
           flash.message = "Bienvenido ${user.login}!"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="MacBook-de-Javier.local" name="racetrack.UserControllerTests" tests="2" time="5.32" timestamp="2013-02-26T15:24:08">
+  <properties />
+  <testcase classname="racetrack.UserControllerTests" name="testIndex" time="3.909" />
+  <testcase classname="racetrack.UserControllerTests" name="testShow" time="1.328">
+    <error message="Cannot get property &apos;userInstance&apos; on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot get property &apos;userInstance&apos; on null object
+	at racetrack.UserControllerTests.testShow(UserControllerTests.groovy:33)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testShow--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testShow--
+]]></system-err>
+</testsuite>
